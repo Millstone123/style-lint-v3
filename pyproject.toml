@@ -1,6 +1,6 @@
 [project]
 name = "style-lint-v3"
-version = "3.0.5"
+version = "3.0.6"
 description = "CSS/SCSS style linter with shared team profiles."
 requires-python = ">=3.9"
 dependencies = ["style-profile"]
