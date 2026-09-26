@@ -1,6 +1,6 @@
 # style-lint-v3
 
-CSS/SCSS style linter with shared team profiles.
+CSS/SCSS style linter with shared team profile assets.
 
 ## Setup
 
