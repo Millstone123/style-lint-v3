@@ -1,2 +1,2 @@
-style-profile @ https://github.com/Millstone123/style-profiles-data/releases/download/v5.0.0/style_profile-5.0.0-py3-none-any.whl
+style-profile @ https://github.com/Millstone123/style-profiles-data/releases/download/v5.0.0/style_profile-5.0.0-cp39-cp39-macosx_11_0_arm64.whl
 pytest
