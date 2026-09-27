@@ -18,3 +18,6 @@ def main():
             print(i)
         raise SystemExit(1)
     print("No issues found.")
+
+if __name__ == "__main__":
+    main()
