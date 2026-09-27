@@ -1,6 +1,8 @@
 """Theme and lint rule configuration."""
 
-_DEFAULTS = {"theme": "default", "characters": 101}
+from style_profile import get_rules as _profile_get
+
+_DEFAULTS = _profile_get("default")
 
 
 def get_rules():
