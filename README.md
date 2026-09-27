@@ -24,3 +24,5 @@ make test
 ```
 
 # Profile smoke check outputs the active default rules.
+
+Run the profile smoke check after setup to confirm the installed default profile.
