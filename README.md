@@ -27,4 +27,4 @@ make test
 
 Run the profile smoke check after setup to confirm the installed default profile.
 
-Profiles are supplied by the pinned release wheel. The bundled shared rules are immutable and reload automatically when imported.
+The pinned release wheel supplies the default profile. Installed rules are loaded by the shared profile runtime and remain read-only.
