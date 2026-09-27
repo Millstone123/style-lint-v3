@@ -1,1 +1,0 @@
-from .lint import lint

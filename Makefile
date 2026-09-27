@@ -1,13 +1,7 @@
-.PHONY: bootstrap smoke test lint
+.PHONY: bootstrap test
 
 bootstrap:
-	pip install -r requirements.txt && pip install -e . && python -m style_lint --init
-
-smoke:
-	python -c "import style_profile; print(style_profile.get_rules('default'))"
+	python3 -m venv .venv && .venv/bin/pip install -r requirements.txt && .venv/bin/python -m style_lint
 
 test:
-	python -m pytest tests
-
-lint:
-	python -m style_lint
+	.venv/bin/python -m pytest tests/ -q

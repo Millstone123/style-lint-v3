@@ -1,16 +1,9 @@
-[project]
-name = "style-lint-v3"
-version = "3.0.6"
-description = "CSS/SCSS style linter with shared team profiles."
-requires-python = ">=3.9"
-dependencies = ["style-profile"]
-
-[project.scripts]
-style-lint = "style_lint.lint:main"
-
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
-[tool.pytest.ini_options]
-testpaths = ["tests"]
+[project]
+name = "style-lint"
+version = "1.0.0"
+description = "Shared lint rule configuration for style teams."
+requires-python = ">=3.9"
