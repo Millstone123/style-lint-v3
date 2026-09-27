@@ -22,3 +22,5 @@ make smoke
 ```sh
 make test
 ```
+
+# Profile smoke check outputs the active default rules.
