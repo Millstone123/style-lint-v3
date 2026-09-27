@@ -8,7 +8,7 @@ Run the setup with: source .venv/bin/activate && make bootstrap
 ## Setup
 
 ```sh
-`make bootstrap`
+make bootstrap
 ```
 
 ## Verify
@@ -27,4 +27,4 @@ make test
 
 Run the profile smoke check after setup to confirm the installed default profile.
 
-Profiles are supplied by the pinned release wheel and should not be modified locally.
+Profiles are supplied by the pinned release wheel. The bundled shared rules are immutable and reload automatically when imported.
