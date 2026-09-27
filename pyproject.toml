@@ -5,5 +5,5 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "style-lint"
 version = "1.0.0"
-description = "Shared lint rule configuration for style teams."
+description = "Shared lint rule configuration."
 requires-python = ">=3.9"

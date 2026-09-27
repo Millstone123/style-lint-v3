@@ -1,6 +1,6 @@
 # style-lint
 
-Shared lint rule configuration for style teams.
+Shared lint rule configuration.
 
 ## Setup
 
